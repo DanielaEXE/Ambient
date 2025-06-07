@@ -25,8 +25,20 @@ p {
     padding: 10px;
 }
 div {
-    display: flex;
+    display: inline-block;
 }
 .center {
     justify-content:center;
+}
+.a {
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+
+} 
+.i {
+    height: 400px;
+      align-self: center;
+    padding: 10px;
 }
